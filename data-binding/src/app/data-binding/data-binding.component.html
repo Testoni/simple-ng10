@@ -1,0 +1,15 @@
+<section class="property-binding">
+    <article>
+        <h3>Interpolation</h3>
+        <p>test string {{ url }}</p>
+        <p>Result 1+1 {{ 1 + 1 }}</p>
+        <p>{{ getValue() }}</p>
+        <p>{{ condition && getCondition() }}</p>
+        <img src="{{ urlImage }}">
+    </article>
+
+    <article>
+        <h3>Propery Binding</h3>
+        <img [src]="urlImage">
+    </article>
+</section>

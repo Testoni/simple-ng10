@@ -20,3 +20,6 @@ ng g c my-component (create component)
 ng g module cursos 
 ng g c cursos
 ng g c cursos/curso-detalhe
+
+// create service
+ng g service cursos/cursos
