@@ -5,5 +5,9 @@
         <h3>Input/Output Properties</h3>
 
         <app-input-property [name]="courseName"></app-input-property>
+
+        <app-output-property [value]="initialValue"
+            (changedValue)="onChangedValue($event)">
+        </app-output-property>
     </article>
 </section>
