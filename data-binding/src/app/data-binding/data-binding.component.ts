@@ -7,18 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBindingComponent implements OnInit {
 
-  url: string = 'http://google.com.br'
-  condition: boolean = true;
-  urlImage = 'http://lorempixe.com/400/200/nature/'
-
-  getValue() {
-    return 1;
-  }
-
-  getCondition() {
-    return true;
-  }
-
   constructor() { }
 
   ngOnInit(): void {
