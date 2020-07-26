@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBindingComponent implements OnInit {
 
+  courseName: string = 'Angular';
+
   constructor() { }
 
   ngOnInit(): void {
