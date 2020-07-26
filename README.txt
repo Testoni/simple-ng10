@@ -23,3 +23,6 @@ ng g c cursos/curso-detalhe
 
 // create service
 ng g service cursos/cursos
+
+// adding bootstrap in project
+ng add @ng-bootstrap/ng-bootstrap
