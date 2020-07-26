@@ -10,13 +10,17 @@ import { MyFormModule } from './my-form/my-form.module';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { CicleComponent } from './cicle/cicle.component';
+import { YellowBackgroundDirective } from './shared/yellow-background.directive';
+import { CustomDirectivesComponent } from './custom-directives/custom-directives.component';
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
-    CicleComponent
+    CicleComponent,
+    YellowBackgroundDirective,
+    CustomDirectivesComponent
   ],
   imports: [
     BrowserModule,

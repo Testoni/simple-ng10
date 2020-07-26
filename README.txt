@@ -21,6 +21,9 @@ ng g c courses/course-detail
 // create service
 ng g s courses/courses
 
+// create directives
+ng g d 
+
 // adding bootstrap in project
 ng add @ng-bootstrap/ng-bootstrap
 
